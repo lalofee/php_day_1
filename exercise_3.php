@@ -7,26 +7,13 @@
 <body>
 
 <?php
-if(date('D') == 'Mon') { 
-  echo "Happy Monday!";
-} elseif(date('D') == 'Tue') {
-  echo "Happy Tuesday!";
-}
-elseif(date('D') == 'Wed') {
-  echo "Happy Wednesday!";
-}
-elseif(date('D') == 'Thu') {
-  echo "Happy Thursday!";
-}
-elseif(date('D') == 'Fri') {
-  echo "Happy Friday!";
-}
-elseif(date('D') == 'Sat') {
-  echo "Happy Saturday!";
-}
-elseif(date('D') == 'Sun') {
-  echo "Happy Sunday!";
-}
+	$name ="Angela";
+	$zahl = 50;
+	while($zahl <= 50) {
+		print $name;
+		echo "<br>";
+		$zahl += $zahl;
+	}
 ?>
 
 </body>
